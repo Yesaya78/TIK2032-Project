@@ -1,0 +1,13 @@
+body {
+    background-color: #474E68;
+}
+h1 {
+    font-size: 60px;
+}
+
+.container-artikel {
+    background-color: #50577A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
