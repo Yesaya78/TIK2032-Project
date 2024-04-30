@@ -1,13 +1,15 @@
 body {
-    background-color: #404258;
-    
+    background-image: url('bckrndweb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-footer {
-    background-color: #474E68;
+    background-color: "";
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
@@ -15,3 +17,15 @@ button:hover {
     transition: background-color 0.5s ease;
 
 }
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+img {
+    opacity: 0.8;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+  }

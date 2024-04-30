@@ -1,5 +1,7 @@
 body {
-    background-color: #474E68;
+    background-image: url('kirari-shteyn-L_bP7X-HZ0w-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -7,8 +9,9 @@ h1 {
 }
 
 .container-galeri {
-    background-color: #50577A;
+    background-color: "";
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
 }
